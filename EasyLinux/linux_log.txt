@@ -1,0 +1,239 @@
+2018-08-21 08:06:32.954249 fxcavp211 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:07:34.939928 fxcavp211 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:09:00.293930 fxcavp211 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:10:12.709142 fxcavp306 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:11:09.534863 fxcavp306 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:12:33.241211 fxcavp306 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:13:44.134827 fxcavp229 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:14:40.434892 fxcavp229 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:16:33.548000 fxcavp229 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:19:22.172806 fxcavp373 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:22:19.703877 fxcavp455 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:23:13.560103 fxcavp455 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:25:05.665886 fxcavp455 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:27:59.264839 fxcavp373 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:30:20.525329 fxcavp373 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:32:05.533117 fxcavp149 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 08:33:20.444124 fxcavp149 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:34:19.688929 fxcavp149 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:35:40.854809 fxcavp149 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 08:37:27.732251 fxcavp373 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 08:38:33.954838 fxcavp229 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 08:39:39.739040 fxcavp306 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 08:46:23.818981 fxcavp139 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:47:51.316081 fxcavp139 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 08:53:38.904863 fxcavp288 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 08:55:21.379985 fxcavp288 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 09:00:56.517407 fxcavp287 svn update aborted
+2018-08-21 09:02:12.478230 fxcavp287 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:04:17.977877 fxcavp287 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 09:05:17.601997 fxcavp287 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:07:21.207583 fxcavp18 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:07:34.003154 fxcavp212 svn update aborted
+2018-08-21 09:08:28.412862 fxcavp18 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:09:17.519873 fxcavp18 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:10:14.077092 fxcavp69 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:11:06.176308 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:11:59.909856 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:13:05.936129 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-21 09:14:18.458030 fxcavp19 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:15:12.656190 fxcavp19 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:16:09.397847 fxcavp19 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:17:48.405847 fxcavp135 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:18:49.338235 fxcavp135 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:20:09.813928 fxcavp135 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:21:53.780131 fxcavp136 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:24:09.367001 fxcavp136 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:24:59.567830 fxcavp136 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:29:07.956219 fxcapp161 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:30:59.892868 fxcapp161 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:32:10.129192 fxcapp161 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:34:14.172243 fxcavp220 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:37:29.669970 fxcavp220 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:38:26.555140 fxcavp220 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:45:57.593813 fxcavp82 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-21 09:46:57.428890 fxcavp82 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:47:49.408141 fxcavp82 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-21 09:57:36.361039 fxcavp79 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-21 09:59:23.169035 fxcavp79 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_2/antigua/
+2018-08-22 00:47:14.741032 fxcavp139 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-22 00:51:10.662985 fxcavp139 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/
+2018-08-22 00:55:30.255910 fxcavp287 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/
+2018-08-22 00:57:03.243036 fxcavp288 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/
+2018-08-22 01:27:18.899436 fxcavp69 Copy address:/home/blaze/PycharmProjects/EasyLinux/copy_files/test -> /home/blaze/Desktop
+2018-08-22 01:28:00.519190 fxcapp161 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/test -> /home/blaze/Desktop
+2018-08-22 01:31:13.883345 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-08-22 01:33:20.071042 fxcavp229 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-22 01:34:34.088239 fxcavp306 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-08-22 01:35:59.153935 fxcavp306 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-22 01:37:17.222837 fxcavp229 svn update address:/opt/cisco/constellation/apollo/libs/te_libs/utils
+2018-08-22 01:50:13.293128 fxcavp229 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-22 01:51:33.520949 fxcavp306 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-22 01:53:04.909181 fxcavp211 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/product_group_1/barbados/
+2018-08-22 02:22:58.400095 fxcavp358 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-08-22 03:09:43.977992 fxcavp212 svn update aborted
+2018-08-22 03:10:15.564635 fxcavp212 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select files-- -> --Address--
+2018-08-22 03:17:53.316819 fxcavp69 svn update aborted
+2018-08-22 08:31:25.716167 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:34:17.875088 fxcapp161 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:39:49.132215 fxcavp69 svn update aborted
+2018-08-22 08:39:50.599623 fxcapp161 svn update aborted
+2018-08-22 08:39:55.123670 fxcavp18 svn update aborted
+2018-08-22 08:39:56.291603 fxcavp19 svn update aborted
+2018-08-22 08:39:57.379527 fxcavp135 svn update aborted
+2018-08-22 08:39:58.436334 fxcavp220 svn update aborted
+2018-08-22 08:39:59.595634 fxcavp230 svn update aborted
+2018-08-22 08:40:00.859800 fxcavp219 svn update aborted
+2018-08-22 08:40:01.836161 fxcavp79 svn update aborted
+2018-08-22 08:40:03.684203 fxcavp82 svn update aborted
+2018-08-22 08:40:05.019598 fxcavp55 svn update aborted
+2018-08-22 08:40:06.604945 fxcavp136 svn update aborted
+2018-08-22 08:40:07.796803 fxcavp69 svn update aborted
+2018-08-22 08:40:08.788906 fxcavp218 svn update aborted
+2018-08-22 08:40:52.192826 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:42:47.533847 fxcapp161 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:44:37.917222 fxcavp18 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:46:40.537080 fxcavp19 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 08:46:48.534889 fxcavp135 svn update aborted
+2018-08-22 08:46:50.078665 fxcavp220 svn update aborted
+2018-08-22 08:46:50.510603 fxcavp230 svn update aborted
+2018-08-22 08:46:50.822834 fxcavp219 svn update aborted
+2018-08-22 08:46:51.207546 fxcavp79 svn update aborted
+2018-08-22 08:46:51.535283 fxcavp82 svn update aborted
+2018-08-22 08:46:51.928167 fxcavp55 svn update aborted
+2018-08-22 08:46:52.294532 fxcavp136 svn update aborted
+2018-08-22 08:46:52.615049 fxcavp69 svn update aborted
+2018-08-22 08:46:53.134566 fxcavp218 svn update aborted
+2018-08-22 08:48:27.281141 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-08-22 08:48:43.862056 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-08-22 08:50:23.452600 fxcavp69 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/test -> /home/blaze/Desktop
+2018-08-22 08:52:51.009237 fxcavp69 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/test -> /home/blaze/Desktop
+2018-08-22 08:54:33.030792 fxcavp69 svn update aborted
+2018-08-22 08:54:33.941253 fxcapp161 svn update aborted
+2018-08-22 08:54:36.157374 fxcavp18 svn update aborted
+2018-08-22 08:54:37.452899 fxcavp19 svn update aborted
+2018-08-22 08:57:19.688827 fxcavp135 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:00:13.631159 fxcavp220 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:02:59.071014 fxcavp230 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:05:47.145017 fxcavp219 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:06:04.830084 fxcavp79 svn update aborted
+2018-08-22 09:06:05.102694 fxcavp82 svn update aborted
+2018-08-22 09:06:05.325920 fxcavp136 svn update aborted
+2018-08-22 09:06:05.575056 fxcavp69 svn update aborted
+2018-08-22 09:08:38.754128 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:09:27.485976 fxcapp161 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:10:19.113793 fxcavp18 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:11:10.750044 fxcavp19 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:12:08.235001 fxcavp135 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:13:04.814802 fxcavp220 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:14:08.022187 fxcavp230 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:15:27.365939 fxcavp219 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:18:05.401856 fxcavp79 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:20:41.666814 fxcavp82 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:23:19.765155 fxcavp136 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-22 09:24:08.839025 fxcavp69 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-08-23 01:34:12.124886 fxcavp230 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/libs/
+2018-09-17 08:56:16.079695 fxcavp212 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-09-17 08:57:43.924578 fxcavp214 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-09-18 01:00:53.826007 fxcavp69 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:00:55.152142 fxcapp161 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:00:58.003149 fxcavp18 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:00:59.888594 fxcavp19 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:01.259236 fxcavp135 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:02.618106 fxcavp220 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:04.222562 fxcavp230 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:05.734431 fxcavp219 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:07.343478 fxcavp79 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:08.726778 fxcavp82 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:10.037581 fxcavp136 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:24.240189 fxcavp212 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:27.744393 fxcavp221 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:29.145172 fxcavp214 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:30.587659 fxcavp351 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:32.363605 fxcavp369 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:41.724432 fxcavp217 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:43.160628 fxcavp362 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:44.578746 fxcavp306 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:45.882497 fxcavp149 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:47.617266 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:48.894652 fxcavp367 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:50.863585 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:52.611292 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:55.141635 fxcavp287 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:57.109709 fxcavp288 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:58.293088 fxcavp354 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:01:58.893065 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:02:00.400408 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:02:00.850116 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:02:01.292689 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:02:03.076571 fxcapp38 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:02:04.545687 fxcavp455 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:04:43.319183 fxcavp214 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:05:05.814785 fxcavp212 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:05:10.743252 fxcavp221 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:11.635520 fxcavp214 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:13.314186 fxcavp351 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:14.593605 fxcavp369 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:16.336203 fxcavp217 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:17.543925 fxcavp362 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:18.855491 fxcavp306 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:20.411983 fxcavp149 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:22.096792 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:23.454706 fxcavp367 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:24.822549 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:28.984529 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:32.597560 fxcavp287 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:34.056647 fxcavp288 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:35.415649 fxcavp354 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:35.879758 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:37.330575 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:37.797786 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:38.238992 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:39.917612 fxcapp38 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:05:41.165080 fxcavp455 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:09:15.459443 fxcavp416 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:09:30.665851 fxcavp219 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:13:35.380077 fxcavp212 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:13:38.088514 fxcavp221 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:38.973434 fxcavp214 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:39.875662 fxcavp351 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:40.971354 fxcavp369 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:43.235271 fxcavp217 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:44.533675 fxcavp362 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:45.712638 fxcavp306 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:46.880337 fxcavp149 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:48.107537 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:48.971649 fxcavp367 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:50.660458 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:52.110584 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:53.808522 fxcavp287 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:55.182615 fxcavp288 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:56.030777 fxcavp354 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:56.469020 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:57.469370 fxcavp229 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:57.908638 fxcavp373 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:58.347750 fxcavp139 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:13:59.576613 fxcapp38 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:14:00.377409 fxcavp455 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:14:01.233096 fxcavp416 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:17:54.923806 fxcapp161 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 01:17:56.840340 fxcavp135 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:17:58.488157 fxcavp220 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:17:59.906649 fxcavp82 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:18:00.570561 fxcapp55fxcavp230 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:18:02.188622 fxcavp219 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:18:04.040463 fxcavp79 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 01:18:04.491629 fxcavp82 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:31.393635 fxcapp161 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop
+2018-09-18 06:10:32.744634 fxcavp135 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:33.990510 fxcavp220 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:35.110250 fxcavp82 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:35.531021 fxcapp55fxcavp230 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:37.013572 fxcavp219 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:38.532506 fxcavp79 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:38.992105 fxcavp82 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:44.570680 fxcavp211 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:10:46.452424 fxcavp149 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/--Select Files-- -> /home/blaze/Desktop
+2018-09-18 06:12:37.868599 fxcavp211 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/utils/
+2018-09-19 05:57:00.822232 fxcavp358 svn update address:/opt/cisco/te/scripts/projects/wnbu/trunk/
+2018-09-20 01:17:44.452537 fxcavp214 copy files address:/home/blaze/PycharmProjects/EasyLinux/copy_files/FastLinux -> /home/blaze/Desktop

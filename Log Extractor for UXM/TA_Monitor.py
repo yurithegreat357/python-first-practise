@@ -6,6 +6,7 @@ import shutil
 import time
 import zipfile
 from tkinter import messagebox
+import winreg as reg
 
 __author__ = "Yuri Du"
 __date__ = "2020/06/25"
@@ -24,7 +25,7 @@ class LogExtractor:
         self.log_file_list = os.listdir(self.log_path)
         self.copied_path = r"D:\LogExtractor\LogResultAssert_" + self.timestamp_str
         self.hccu_log_path = r'C:\TEMP\TSPC_1eUXM5G_LF\\'
-
+        self.AddToRegistry()
         if not os.path.exists(root_dir):
             os.mkdir(root_dir)
         try:
@@ -41,7 +42,7 @@ class LogExtractor:
                                    .format(root_dir))
 
     def remove_copied_path(self):
-        shutil.rmtree(self.copied_path)
+        shutil.rmtree(self.copied_path, ignore_errors=True)
 
     def check_hccu_directory(self):
         """Check out the HCCU log path to clean up the file storage"""
@@ -97,6 +98,35 @@ class LogExtractor:
         zipdir(self.copied_path, zipf)
         zipf.close()
         self.remove_copied_path()
+
+    def AddToRegistry(self, remove_key=False):
+        # in python __file__ is the instant of
+        # file path where it was executed
+        # so if it was executed from desktop,
+        # then __file__ will be
+        # c:\users\current_user\desktop
+        pth = os.path.dirname(os.path.realpath(__file__))
+
+        # name of the python file with extension
+        s_name = "TA_Monitor.py"
+
+        # joins the file name to end of path address
+        address = os.path.join(pth, s_name)
+
+        # key we want to change is HKEY_CURRENT_USER
+        # key value is Software\Microsoft\Windows\CurrentVersion\Run
+        key = reg.HKEY_CURRENT_USER
+        key_value = r"Software\Microsoft\Windows\CurrentVersion\Run"
+
+        # open the key to make changes to
+        reg_key = reg.OpenKey(key, key_value, 0, reg.KEY_ALL_ACCESS)
+        if remove_key:
+            reg.DeleteKeyEx(reg_key, "start_up", 0, reg.REG_SZ, address)
+        else:
+            reg.SetValueEx(reg_key, "start_up", 0, reg.REG_SZ, address)
+
+        # now close the opened key
+        reg.CloseKey(reg_key)
 
 
 class InstrumentBase:
@@ -168,7 +198,7 @@ if __name__ == '__main__':
                     log_flag = False
                 else:
                     log_handle.remove_copied_path()
-                    print("Assert Logs not found. Skipped to hccu log extractrion")
+                    print("Assert Logs not found. Waiting for TA to restart")
                     time.sleep(10)
             else:
                 print("Assert log has been captured, Waiting for TA to restart")

@@ -67,24 +67,27 @@ class LogExtractor:
         instr.terminate()
 
     def extract_ta_log(self):
-        matching = [s for s in self.log_file_list if "Assert-Host" in s]
-        if matching:
-            print("Assert Logs Found!!")
-            t = Thread(target=self.copy_hccu_logs)
-            t.start()
-            copy_list = []
-            for every_file in self.log_file_list:
-                if 'Archive' in every_file or 'PersistentErrors' in every_file:
-                    pass
-                else:
-                    copy_list.append(every_file)
-            print(copy_list)
-            for element in copy_list:
-                source_path = self.log_path + element
-                shutil.copy(source_path, self.copied_path)
-                print("Copying {} to {}".format(source_path, self.copied_path))
-            t.join()
-            return True
+        if not first_start:
+            matching = [s for s in self.log_file_list if "Assert-Host" in s]
+            if matching:
+                print("Assert Logs Found!!")
+                t = Thread(target=self.copy_hccu_logs)
+                t.start()
+                copy_list = []
+                for every_file in self.log_file_list:
+                    if 'Archive' in every_file or 'PersistentErrors' in every_file:
+                        pass
+                    else:
+                        copy_list.append(every_file)
+                print(copy_list)
+                for element in copy_list:
+                    source_path = self.log_path + element
+                    shutil.copy(source_path, self.copied_path)
+                    print("Copying {} to {}".format(source_path, self.copied_path))
+                t.join()
+                return True
+            else:
+                return False
         else:
             return False
 
@@ -186,29 +189,30 @@ class HCCUInstrument(InstrumentBase):
     def hccu_reset(self, first_start_flag):
         if not first_start_flag:
             self.send(":SYSTem:HRESet")
-        counter = 600
+            time.sleep(300)
+        counter = 60
+        confirm_count = 0
         while True:
-            return_status = self.query(":SYSTem:STATus?")
+            try:
+                return_status = self.query(":SYSTem:STATus?")
+            except VisaIOError:
+                return_status = "VISA ERROR"
             if counter == 0:
-                self.send(":SYSTem:RESTart")
+                os.popen(r'shutdown /r')
             if "OPER" in return_status:
-                os.popen(r'start "" "C:\Program Files (x86)\Keysight\5GTA\TestApp.exe"')
-                break
+                confirm_count += 1
+                time.sleep(3)
+                if confirm_count >= 3:
+                    os.popen(r'start "" "C:\Program Files (x86)\Keysight\5GTA\TestApp.exe"')
+                    break
             else:
                 print("HCCU is not Operational, The Current state is {}, Restarting in {} seconds"
                       .format(return_status, counter))
-                time.sleep(1)
-                counter -= 1
+                time.sleep(5)
+                counter -= 5
 
 
 if __name__ == '__main__':
-    # log_handle = LogExtractor()
-    # ret = log_handle.extract_ta_log()
-    # if ret:
-    #     log_handle.copy_hccu_logs()
-    #     log_handle.compress_file()
-    #     print("Log extraction finished")
-    #
     log_flag = True
     first_start = True
     while True:
@@ -228,7 +232,6 @@ if __name__ == '__main__':
                 log_handle = LogExtractor()
                 ret = log_handle.extract_ta_log()
                 if ret:
-                    # log_handle.copy_hccu_logs()
                     log_handle.compress_file()
                     print("Log extraction finished")
                     log_handle.check_hccu_directory()

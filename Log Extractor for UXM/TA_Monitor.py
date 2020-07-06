@@ -9,7 +9,7 @@ from tkinter import messagebox
 import winreg as reg
 
 __author__ = "Yuri Du"
-__date__ = "2020/06/25"
+__date__ = "2020/07/06"
 # HCCU Export Log
 # SYSTem:EXPortlog "C:\Temp\{setup}\systemlogs {date} {time} {status}.zip"
 # SYSTem:CLEAnlog
@@ -25,7 +25,7 @@ class LogExtractor:
         self.log_file_list = os.listdir(self.log_path)
         self.copied_path = r"D:\LogExtractor\LogResultAssert_" + self.timestamp_str
         self.hccu_log_path = r'C:\TEMP\TSPC_1eUXM5G_LF\\'
-        self.AddToRegistry()
+        self.add_to_registry()
         if not os.path.exists(root_dir):
             os.mkdir(root_dir)
         try:
@@ -64,6 +64,7 @@ class LogExtractor:
         print("Copying HCCU log from {} to {}".format(self.hccu_log_path + extracted_file_name, self.copied_path))
         shutil.copy(self.hccu_log_path + extracted_file_name, self.copied_path)
         instr.send(r"SYSTem:CLEAnlog")
+        instr.terminate()
 
     def extract_ta_log(self):
         matching = [s for s in self.log_file_list if "Assert-Host" in s]
@@ -99,7 +100,8 @@ class LogExtractor:
         zipf.close()
         self.remove_copied_path()
 
-    def AddToRegistry(self, remove_key=False):
+    @staticmethod
+    def add_to_registry(remove_key=False):
         # in python __file__ is the instant of
         # file path where it was executed
         # so if it was executed from desktop,
@@ -143,6 +145,9 @@ class InstrumentBase:
         self.IsConnected = True
         self.IDN = self.query("*IDN?")
 
+    def terminate(self):
+        self.instr.close()
+
     def send(self, command):
         self.logger.debug("SCPI>> {}".format(command))
         self.instr.write(command)
@@ -168,6 +173,33 @@ class HCCUInstrument(InstrumentBase):
         super().__init__()
         pass
 
+    def resume_after_crash(self):
+        # C:\ProgramFiles(x86)\Keysight\5GTA\TestApp.exe
+        # start "" "C:\Program Files (x86)\Keysight\5GTA\TestApp.exe"
+        state_value = self.query(":SYSTem:STATus?")
+        if "OPER" not in state_value:
+            print("HCCU is not in Operational Status, Resetting....")
+            self.hccu_reset(False)
+        else:
+            os.popen(r'start "" "C:\Program Files (x86)\Keysight\5GTA\TestApp.exe"')
+
+    def hccu_reset(self, first_start_flag):
+        if not first_start_flag:
+            self.send(":SYSTem:HRESet")
+        counter = 600
+        while True:
+            return_status = self.query(":SYSTem:STATus?")
+            if counter == 0:
+                self.send(":SYSTem:RESTart")
+            if "OPER" in return_status:
+                os.popen(r'start "" "C:\Program Files (x86)\Keysight\5GTA\TestApp.exe"')
+                break
+            else:
+                print("HCCU is not Operational, The Current state is {}, Restarting in {} seconds"
+                      .format(return_status, counter))
+                time.sleep(1)
+                counter -= 1
+
 
 if __name__ == '__main__':
     # log_handle = LogExtractor()
@@ -178,6 +210,7 @@ if __name__ == '__main__':
     #     print("Log extraction finished")
     #
     log_flag = True
+    first_start = True
     while True:
         print("Parsing TA status")
         ret = os.popen('tasklist').read()
@@ -185,9 +218,13 @@ if __name__ == '__main__':
             log_flag = True
         if 'TestApp' in ret and log_flag:
             print("TA is running......")
+            first_start = False
             time.sleep(10)
         else:
             if log_flag:
+                hccu_handle = HCCUInstrument()
+                hccu_handle.logger = logging.getLogger("Main.HCCU")
+                hccu_handle.open("TCPIP0::{}::hislipHCCU::INSTR".format("127.0.0.1"))
                 log_handle = LogExtractor()
                 ret = log_handle.extract_ta_log()
                 if ret:
@@ -196,9 +233,14 @@ if __name__ == '__main__':
                     print("Log extraction finished")
                     log_handle.check_hccu_directory()
                     log_flag = False
+                    hccu_handle.resume_after_crash()
                 else:
                     log_handle.remove_copied_path()
                     print("Assert Logs not found. Waiting for TA to restart")
+                    if first_start:
+                        hccu_handle.hccu_reset(first_start)
+                    else:
+                        hccu_handle.resume_after_crash()
                     time.sleep(10)
             else:
                 print("Assert log has been captured, Waiting for TA to restart")

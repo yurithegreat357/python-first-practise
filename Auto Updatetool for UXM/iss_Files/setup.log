@@ -1,0 +1,10 @@
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=-3
+[Application]
+Name=Keysight C8700200A 5G NR NSA+SA Test Application 15.1801.1618
+Version=15.1801.1618.06121
+Company=Keysight Technologies
+Lang=0409
